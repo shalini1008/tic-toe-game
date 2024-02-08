@@ -4,12 +4,14 @@ let msgContainer=document.querySelector("#newbtn");
 let msg = document.getElementById('msg');
 let turn0=true;
 const winPatterns = [
-    [0,1,2],
-    [0,3,6],
-    [0,4,7],
-    [1,4,7],
-    [2,6,8],
-    [2,4,6],
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6],
 ];
 let draw=true;
 boxes.forEach((box) => {
